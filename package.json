@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "date-fns": "^2.25.0",
+    "fastify": "^3.22.1"
+  },
+  "scripts": {
+    "start": "node server"
+  }
+}

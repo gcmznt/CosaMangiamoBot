@@ -1,0 +1,155 @@
+{
+  "startDate": "2021/10/04",
+  "menu": [
+    {
+      "1": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pasta al pomodoro/integrale",
+          "Rotolo di frittata",
+          "Carote a fili"
+        ]
+      },
+      "2": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pastina in brodo",
+          "Spezzatino di manzo/polpette con polenta",
+          "Dolce"
+        ]
+      },
+      "3": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Passato di verdure con crostini",
+          "Formaggio",
+          "Patate prezzemolate"
+        ]
+      },
+      "4": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Riso allo zafferano",
+          "Cuore di merluzzo",
+          "Pomodori/insalata"
+        ]
+      },
+      "5": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": ["Pasta e legumi", "Zucchine gratinate/cavolfiore", "Yogurt"]
+      }
+    },
+    {
+      "1": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": ["Pasta con le zucchine", "Bresaola", "Carote"]
+      },
+      "2": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Zuppa del contadino con pastina/farro",
+          "Formaggio",
+          "Patate e/o fagiolini",
+          "Budino"
+        ]
+      },
+      "3": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pasta bianca",
+          "Fesa di tacchino impanata al forno",
+          "Spinaci"
+        ]
+      },
+      "4": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pizza/piadina (pastina)",
+          "Pomodori/insalata",
+          "Dolce/pane e marmellata"
+        ]
+      },
+      "5": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pasta al pomodoro/zafferano",
+          "Sogliola al limone",
+          "Cavolo cappuccio"
+        ]
+      }
+    },
+    {
+      "1": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Lasagne/pasta pasticciata",
+          "Finocchi in insalata e/o insalata",
+          "Yogurt"
+        ]
+      },
+      "2": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": ["Pasta al pesto", "Scaloppine al limone", "Carote"]
+      },
+      "3": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Ravioli di magro al pomodoro/pasta al ragù",
+          "Frittata o uovo sodo",
+          "Fagiolini"
+        ]
+      },
+      "4": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Riso pomodoro/zucca",
+          "Petto di pollo arrosto o cosce di pollo",
+          "Patate al forno"
+        ]
+      },
+      "5": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Passato di verdure/pastina in brodo",
+          "Sogliola alla mugnaia",
+          "Zucchine"
+        ]
+      }
+    },
+    {
+      "1": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": ["Piadina", "Pomodori/insalata", "Pane e nutella"]
+      },
+      "2": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pasta alle verdure",
+          "Frittata con zucchine",
+          "Carote a fili"
+        ]
+      },
+      "3": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": ["Gnocchi/pasta al pomodoro", "Vitello primavera con verdure"]
+      },
+      "4": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Riso/pasta con tonno",
+          "Finocchi gratinati/zucchine/cavolfiore",
+          "Prosciutto cotto",
+          "Budino"
+        ]
+      },
+      "5": {
+        "morningSnack": ["Frutta di stagione"],
+        "lunch": [
+          "Pastina in brodo",
+          "Pesce alla pizzaiola",
+          "Purè di patate e/o piselli"
+        ]
+      }
+    }
+  ]
+}
