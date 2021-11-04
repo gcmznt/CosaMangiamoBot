@@ -6,9 +6,13 @@ fastify.get("/send", async (request, reply) => {
   return { hello: "world" };
 });
 
+fastify.get("/", async (request, reply) => {
+  return { hello: "home" };
+});
+
 const start = async () => {
   try {
-    await fastify.listen(process.env.PORT || 3003);
+    await fastify.listen(process.env.PORT || 3003, "0.0.0.0");
   } catch (err) {
     fastify.log.error(err);
     process.exit(1);
