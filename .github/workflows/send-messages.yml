@@ -15,6 +15,6 @@ jobs:
           node-version: "12.x"
       - run: npm install
       - name: Send
-        run: npm send
+        run: npm run send
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
