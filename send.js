@@ -3,13 +3,13 @@ const data = require("./data.json");
 const differenceInWeeks = require("date-fns/differenceInWeeks");
 const getDay = require("date-fns/getDay");
 
-const greetings = ["Ciao a tutt\\*\\!"];
+const greetings = ["Ciao a tutt*!"];
 const messages = [
   "Oggi le nostre bimbe e bimbi mangieranno:",
   "Ecco il menù di oggi:",
   "Oggi si mangia:",
 ];
-const closing = ["Buon appetito 😋", "Che la fame sia con voi "];
+const closing = ["Buon appetito 😋", "Che la fame sia con voi"];
 
 const getRandom = (list) => list[Math.floor(Math.random() * list.length)];
 
@@ -26,7 +26,7 @@ function sendMesage() {
   const close = getRandom(closing);
 
   const encodedMsg = encodeURIComponent(
-    `${greet}\n${message}\n\n${menu}\n\n${close}`
+    `${greet}\n${message}\n\n${menu}\n\n${close}`.replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, '\\$&')
   );
   const url = `https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage?chat_id=-776165198&text=${encodedMsg}&parse_mode=MarkdownV2`;
 
