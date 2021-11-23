@@ -20,7 +20,7 @@ function sendMesage() {
 
   if (!data.menu[week][day]) return;
 
-  const menu = data.menu[week][day].lunch.map((d) => `\\- ${d}`).join("\n");
+  const menu = data.menu[week][day].lunch.map((d) => `• ${d}`).join("\n");
   const greet = getRandom(greetings);
   const message = getRandom(messages);
   const close = getRandom(closing);
